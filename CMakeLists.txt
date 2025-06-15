@@ -22,3 +22,7 @@ target_link_libraries(NoHoldAndWait pthread)
 # Dining Phiosophers - Resource Ordering
 add_executable(ResourceOrdering src/dining_philosophers_problems/dining_philosophers_sol_no_hold_and_wait.c)
 target_link_libraries(ResourceOrdering pthread)
+
+# Dining Phiosophers - Bankers algorithm
+add_executable(BankersAlgorithm src/dining_philosophers_problems/dining_philosophers_sol_bankers_algorithm.c)
+target_link_libraries(BankersAlgorithm pthread)
