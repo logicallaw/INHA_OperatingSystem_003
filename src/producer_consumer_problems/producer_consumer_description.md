@@ -11,6 +11,40 @@
 더불어, 전역변수 x를 상호배제 하기 위해서 임계 영역의 시작과 끝에 pthread_mutex_lock(&mutex);, pthread_mutex_unlock(&mutex);를 사용하여 guard를 하였습니다.
 
 ## 구현결과(스냅샷)
+**1.개발환경**
+운영체제: macOS Sequoia 15.5
+프로세서: Apple M1
+편집도구: Visual Studio Code v1.101.0
+빌드도구: cmake v3.31.6
+C++ 컴파일러: Apple clang v16.0.0
+
+**2.빌드 방법**
+1. Create a build directory:
+   ```bash
+   mkdir build && cd build
+   ```
+
+2. Compile your source code:
+   ```bash
+   cmake ..
+   ```
+
+3. Run make:
+   ```bash
+   make
+   ```
+
+4. Run the executable
+    ```bash
+    ./Producer_Consumer_Sol_Condition_Variable
+    ```
+
+5. Etc./ shortcut command:
+   ```
+   cmake .. && make && ./Producer_Consumer_Sol_Condition_Variable
+   ```
+
+**3.실행 결과(일부분)**
 ![실행결과](./producer_consumer_sol_snapshot.png)
 
 ## 평가
