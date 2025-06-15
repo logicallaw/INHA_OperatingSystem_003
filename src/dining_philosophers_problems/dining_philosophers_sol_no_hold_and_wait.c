@@ -1,3 +1,13 @@
+/*
+ * This is file of the project INHA_OperatingSystem_003
+ * Licensed under the MIT License.
+ * Copyright (c) 2025 Junho Kim
+ * For full license text, see the LICENSE file in the root directory or at
+ * https://opensource.org/license/mit
+ * Author: Junho Kim
+ * Latest Updated Date: 2025-06-15
+ */
+
 #include <pthread.h>
 #include <semaphore.h>
 #include <stdio.h>
