@@ -1,10 +1,12 @@
 ## 개요
 Readers/Writers 문제를 Reader preference 버전과 Writer preference 버전으로 각각 구현하였습니다.
 
-[깃허브 바로가기](https://github.com/logicallaw/INHA_OperatingSystem_003/tree/main/src/producer_consumer_problems)
+[깃허브 바로가기](https://github.com/logicallaw/INHA_OperatingSystem_003/tree/main/src/readers_writers_problems)
 
 ## 문제해결 방법
+**1.Reader preference**
 
+**2.Writer preference**
 
 ## 구현결과(스냅샷)
 **1.개발환경**
@@ -30,19 +32,29 @@ C++ 컴파일러: Apple clang v16.0.0
    make
    ```
 
-4. Run the executable
+4. Run the executable (e.g. ReaderPreference):
     ```bash
-    ./Producer_Consumer_Sol_Condition_Variable
+    ./ReaderPreference
     ```
 
 5. Etc./ shortcut command:
    ```
-   cmake .. && make && ./Producer_Consumer_Sol_Condition_Variable
+   cmake .. && make && ./ReaderPreference
    ```
 
 **3.실행 결과(일부분)**
-![실행결과](./producer_consumer_sol_snapshot.png)
+- Reader preference
+![Reader preference](./reader_preference_snapshot.png)
+
+- Writer preference
+![Writer preference](./writer_preference_snapshot.png)
 
 ## 평가
+**1.Reader preference**
+
+**2.Writer preference**
 
 ## 결론 및 느낀점
+**1.Reader preference**
+
+**2.Writer preference**
