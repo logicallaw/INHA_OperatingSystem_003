@@ -14,3 +14,11 @@ target_link_libraries(ReaderPreference pthread)
 # Readers/Writers - Writer Preference
 add_executable(WriterPreference src/readers_writers_problems/writer_preference.c)
 target_link_libraries(WriterPreference pthread)
+
+# Dining Phiosophers - No Hold and Wait
+add_executable(NoHoldAndWait src/dining_philosophers_problems/dining_philosophers_sol_no_hold_and_wait.c)
+target_link_libraries(NoHoldAndWait pthread)
+
+# Dining Phiosophers - Resource Ordering
+add_executable(ResourceOrdering src/dining_philosophers_problems/dining_philosophers_sol_no_hold_and_wait.c)
+target_link_libraries(ResourceOrdering pthread)
